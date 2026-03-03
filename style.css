@@ -1,6 +1,6 @@
 body{
-    width: 100%;
-    height: 100%;
+    width: 100dvh;
+    height: 100dvh;
     padding: 0;
 }
 #Carta {
@@ -9,8 +9,8 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
 
-    width: 80%;
-    height: 30%;
+    width: 80dvh;
+    height: 30dvh;
     overflow: hidden;
 
     background-image: url("./assets/ChatGPT Image 2 de mar. de 2026, 19_55_14.png");
