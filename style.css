@@ -1,27 +1,30 @@
 body{
-    width: 100dvh;
-    height: 100dvh;
-    padding: 0;
+    height: 100%;
+    height: 100%;
+    padding: 20px;
 }
 #Carta {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
-    width: 80dvh;
-    height: 30dvh;
+    padding: 15px;
+    width: 80%;
+    min-height: 30%;
     overflow: hidden;
-
+    font-size: 1.5em;
+    font-family:"MyHeart", cursive;
     background-image: url("./assets/ChatGPT Image 2 de mar. de 2026, 19_55_14.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    max-width: 500px;
 }
-h1{
-    font-size: 2em;
+#tituloCarta{
+    font-size: 2rem;
     width: 100%;
     text-align: center;
+    font-family:"MyHeart", cursive;
+    animation:'5000ms revelarh1'
 }
 @keyframes abrir{
     0%{
@@ -31,4 +34,19 @@ h1{
     }100%{
         opacity:1
     }
+}
+@keyframes revelarh1{
+    0%{
+        color: rgba(0, 0, 0, 0);
+    }100%{
+        color: black;
+    }
+}
+@font-face {
+  font-family: "MyHeart";
+  src: url("./assets/Font/myheart.woff2") format("woff2"),
+       url("./assets/Font/myheart.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
