@@ -5,7 +5,7 @@ async function CardInit(){
         document.getElementById('Carta').style.height="90%"
         document.getElementById('Carta').style.width="90%"
         document.getElementById('Carta').style.backgroundPosition="top right"
-        document.getElementById('Carta').innerHTML="<H1>TEXTO TESTE PARA VER SE VOCÊ CONSEGUE LER</H1>"
+        document.getElementById('Carta').innerHTML="<h1 id='tituloCarta'>TEXTO TESTE PARA VER SE VOCÊ CONSEGUE LER</h1>"
         
     }, 2500);
     setTimeout(function() {

@@ -18,8 +18,8 @@ body{
     background-position: center;
     max-width: 500px;
 }
-h1{
-    font-size: 3em;
+#tituloCarta{
+    font-size: 2em;
     width: 100%;
     text-align: center;
 }
