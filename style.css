@@ -16,7 +16,7 @@ body{
     background-image: url("./assets/ChatGPT Image 2 de mar. de 2026, 19_55_14.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    max-width: 500px;
 }
 h1{
     font-size: 2em;
